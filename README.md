@@ -120,8 +120,46 @@ This system demonstrates:
 
 ---
 
-## 📬 Connect
+## 📦 Required Libraries
 
-If you liked this project or want to collaborate, feel free to connect on LinkedIn 🚀
+Install these libraries from **Arduino Library Manager**:
+
+### 🔹 Core Libraries
+
+* `Wire.h` (built-in)
+* `LiquidCrystal_I2C`
+  👉 Used for LCD display
+
+### 🔹 WiFi (for UNO R4 WiFi)
+
+* `WiFiS3`
+  👉 Handles WiFi connection
+
+### 🔹 Firebase
+
+* `Firebase ESP Client (by Mobizt)`
+  👉 Used for sending data to Firebase Realtime Database
 
 ---
+
+## ⚙️ Installation Steps
+
+1. Open **Arduino IDE**
+2. Go to: **Sketch → Include Library → Manage Libraries**
+3. Search and install:
+
+* LiquidCrystal_I2C
+* Firebase ESP Client
+
+( WiFiS3 is already available for UNO R4 )
+
+---
+
+## ⚠️ Important Notes
+
+* Make sure you are using **Arduino UNO R4 WiFi** (required for WiFiS3)
+* Update your **WiFi credentials** in the code
+* Replace Firebase config with your project details
+
+---
+
