@@ -6,8 +6,8 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // 🔑 WiFi
-const char* ssid = "TP-Link_5FF6";
-const char* password = "86512619";
+const char* ssid = "enter your ssid";
+const char* password = "enter your password";
 
 // 🔥 Firebase
 #define DATABASE_URL "https://iot-fire-safety-default-rtdb.asia-southeast1.firebasedatabase.app/"
